@@ -3,7 +3,7 @@ agent any
 stages{ 
 stage('checkout the code from github'){ 
 steps{ 
-git url: 'https://github.com/Surya182002/BankingApp.git/' 
+git url: 'https://github.com/Surya182002/BankingApp/' 
 echo 'github url checkout' 
 } 
 } 
